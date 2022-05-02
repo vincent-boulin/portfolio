@@ -1,0 +1,17 @@
+# some information about you
+name: "Vincent Boulin"
+nickname: "Vincent"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salut, je suis"
+# image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "vincent.boulin@protonmail.com"
+  phone: "+33 6 60 12 63 44"
+
+# some summary about what you do
+summary:
+  - "Je suis un Developpeur FullStack"
+  - "J'aime le Front-end"
+  - "Je travaille sur des projets open-source"
+  - "J'aime travaillé en équipe"

@@ -1,0 +1,57 @@
+# section information
+section:
+  name: A propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: FullStack Software Engineer
+# your company information
+company:
+  name: KalyaTeK
+  url: "https://www.kalyatek.fr"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Je suis un développeur FullStack depuis 10 ans. Passionné par la stack JavaScript, j'aime également découvrir des nouveautés."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Mail
+    icon: "fas fa-envelope"
+    url: "mailto:vincent.boulin@protonmail.com"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/vincent-boulin"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/vincent-boulin/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+  - name: Leadership
+    percentage: 75
+    color: blue
+  - name: Esprit d'équipe
+    percentage: 90
+    color: yellow
+  - name: Sens de la communication
+    percentage: 85
+    color: green
+  - name: Résolution de problème complexe
+    percentage: 90
+    color: sky
+  - name: Créativité
+    percentage: 60
+    color: pink
+  - name: Négociation / Management
+    percentage: 65
+    color: orange

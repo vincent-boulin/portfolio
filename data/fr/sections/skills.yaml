@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: JavaScript
+    logo: /images/sections/skills/javascript.png
+    summary: "Utilisé comme langage principal dans le cadre professionnel. Capable de réaliser des projets testables et maintenables"
+    url: "https://fr.react.org/"
+  - name: React
+    logo: /images/sections/skills/react.png
+    summary: "Framework Front-End pour lequel j'ai le plus d'affinité. Utilisation de React avec son écosystème"
+    url: "https://fr.react.org/"
+  - name: Angular
+    logo: /images/sections/skills/angular.png
+    summary: "Utilisation d'Angular dans le cadre professionnel"
+    url: "https://fr.react.org/"
+  - name: NodeJS
+    logo: /images/sections/skills/nodejs.png
+    summary: "Réalisation de micro-service NodeJS et de scripts utilitaires. Stack express / mongo ainsi que NestJS dans une moindre mesure"
+    url: "https://nodejs.org"
+  - name: Java
+    logo: /images/sections/skills/java.png
+    summary: "Développement de micro-service à l'aide de Springboot"
+    url: "https://www.java.com/fr/"
+  - name: Docker
+    logo: /images/sections/skills/docker.jpg
+    summary: "Packaging des livrables via docker. Utilisation dans un cadre de développement"
+    url: "https://docker.com"
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Environnement de developpement ArchLinux. Utilisation de bash / systemd et administration serveur personnel sous linux"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Habitué des environnements de developpement sous git. Majoritairement GitLab et quelques expériences avec Github (personnel / open source)"

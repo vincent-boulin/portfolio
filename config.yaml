@@ -1,3 +1,41 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://vincent-boulin.fr/
+languageCode: fr
+title: Portfolio - Vincent Boulin
+
+languages:
+  fr:
+    languageName: French
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+outputs:
+  home:
+    - HTML
+    - JSON
+
+enableEmoji: true
+
+params:
+  gitRepo: https://github.com/vincent-boulin/portfolio
+  # enableBlogPost: false
+  # enableTOC: false
+
+  # newsletter:
+  #   enable: false
+
+  background: "images/code.jpg"
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
+  feature:
+    portfolio:
+      enable: true

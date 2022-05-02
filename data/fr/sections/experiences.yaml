@@ -1,0 +1,110 @@
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: KalyaTeK
+      url: "https://www.kalyatek.fr"
+      location: Cintré
+      # company overview
+      overview: Société de prestation et de conseil en informatique.
+    positions:
+      - designation: Président
+        start: Juillet 2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Fondateur et président de l'entreprise
+          - Organisation du temps de travail
+          - Gestion administrative
+
+      - designation: Ingénieur en développement FullStack
+        start: Juillet 2022
+        responsibilities:
+          - Création et développement de www.kalyatek.com
+          - Création et développement de www.vincent-boulin.fr
+          - Utilisation et personnalisation d'un Static Site Generator
+          - Design et maquettage
+  - company:
+      name: Seiitra
+      url: "https://www.seiitra.fr"
+      location: Grenoble
+      overview: Editeur logiciel dans le domaine de l'immobilier
+    positions:
+      - designation: Développeur FullStack
+        start: Janvier 2021
+        responsibilities:
+          - Développement produit de gestion de frais
+          - Conseil technico-fonctionnel
+          - Accompagnement des nouveaux arrivants
+          - Angular / Java / Spring / Postgres / RabbitMQ
+  - company:
+      name: Liksi
+      url: "https://www.liksi.fr"
+      location: Rennes
+      overview: Société de prestation et de conseil en information
+    positions:
+      - designation: Lead technique
+        start: Octobre 2020
+        end: Mai 2022
+        responsibilities:
+          - Accompagnement de junior
+          - Organisation de Midi-tech
+          - Veille technologique
+      - designation: Ingénieur en développement FullStack
+        start: Mai 2020
+        end: Mai 2022
+        responsibilities:
+          - Conseil en architecture Front-End
+          - Développement d'une plateforme de recrutement
+          - React / Java / Spring / Kotlin
+  - company:
+      name: Hoppen
+      url: "https://www.hoppen.care"
+      location: Rennes
+      overview: Editeur logiciel dans le domaine médical
+    positions:
+      - designation: Lead technique - Ingénieur développeur FullStack
+        start: Septembre 2018
+        end: Avril 2020
+        responsibilities:
+          - Responsabilité technique sur plusieurs micro-services du produit
+          - Travail en autonomie
+          - NodeJS / Express / MongoDB / React / Redux / Docker
+          - Utilisation de keycloak pour la mise en place d'un IAM
+          - Utilisation de Vault pour la mise en place d'une PKI
+      - designation: Devops
+        start: Mai 2019
+        end: Avril 2020
+        responsibilities:
+          - Participation à l'amélioration du packaging / déploiement produit
+          - Participation à la préparation de kit de démonstration (mobile et showroom)
+          - Ansible / Docker / Linux / systemd / GitLab CI
+  - company:
+      name: Sopra Steria
+      url: "https://www.sopra-steria.fr"
+      location: Rennes
+      overview: Société de service en informatique
+    positions:
+      - designation: Lead technique - Architecte
+        start: Janvier 2017
+        end: Septembre 2018
+        responsibilities:
+          - Etudes et conseil technico-fonctionnel
+          - Support technique et accompagnement de l'équipe
+          - Mise en place et maintien de l'intégration continue du projet
+          - JavaScript / CSS / Java / .Net / Grunt / Jenkins / SonarQube
+      - designation: Ingénieur en informatique
+        start: Juillet 2012
+        end: Décembre 2016
+        responsibilities:
+          - Développement d'un portail d'exploitation
+          - JavaScript / CSS / Java / .Net / Oracle / Angular (1 et 2)
