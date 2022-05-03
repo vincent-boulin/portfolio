@@ -1,5 +1,6 @@
 baseURL: https://vincent-boulin.fr/
 languageCode: fr
+defaultContentLanguage: "fr"
 title: Portfolio - Vincent Boulin
 
 languages:
@@ -28,10 +29,10 @@ params:
   # enableBlogPost: false
   # enableTOC: false
 
-  # newsletter:
-  #   enable: false
+  newsletter:
+    enable: false
 
-  background: "images/code.jpg"
+  background: "/images/code.jpg"
   # Configure the number of section title visible in the top navbar
   topNavbar:
     maxVisibleSections: 5
