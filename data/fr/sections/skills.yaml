@@ -38,6 +38,8 @@ skills:
   - name: Linux
     logo: /images/sections/skills/linux.png
     summary: "Environnement de developpement ArchLinux. Utilisation de bash / systemd et administration serveur personnel sous linux"
+    url: "https://www.linux.org/"
   - name: Git
     logo: /images/sections/skills/git.png
     summary: "Habitué des environnements de developpement sous git. Majoritairement GitLab et quelques expériences avec Github (personnel / open source)"
+    url: "https://git-scm.com/"
